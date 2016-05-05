@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1462208952 source:c:\users\mihai\desktop\banana\main.cpp
+	<iostream>
+	"SFML/Graphics.hpp"
+	"SFML/Window.hpp"
+	"SFML/System.hpp"
+	"Game.h"
+
+1462302076 c:\users\mihai\desktop\banana\include\game.h
+	"SFML/Graphics.hpp"
+	"SplashScreen.h"
+	"MainMenu.h"
+	"GameObjectManager.h"
+	"PlayerPaddle.h"
+	"GameBall.h"
+
+1462413581 source:c:\users\mihai\desktop\banana\src\game.cpp
+	"Game.h"
+
+1462216906 c:\users\mihai\desktop\banana\include\splashscreen.h
+	"SFML/Graphics.hpp"
+	<string>
+	<iostream>
+
+1462218658 c:\users\mihai\desktop\banana\include\mainmenu.h
+	<iostream>
+	<string>
+	<list>
+	"SFML/Graphics.hpp"
+
+1462219658 source:c:\users\mihai\desktop\banana\src\splashscreen.cpp
+	"SplashScreen.h"
+
+1462219547 source:c:\users\mihai\desktop\banana\src\mainmenu.cpp
+	"MainMenu.h"
+	<list>
+
+1462412684 source:c:\users\mihai\desktop\banana\src\playerpaddle.cpp
+	"PlayerPaddle.h"
+	<iostream>
+	"Game.h"
+
+1462414255 c:\users\mihai\desktop\banana\include\playerpaddle.h
+	"VisibleGameObject.h"
+	"GameObjectManager.h"
+
+1462410636 source:c:\users\mihai\desktop\banana\src\visiblegameobject.cpp
+	"VisibleGameObject.h"
+
+1462410900 c:\users\mihai\desktop\banana\include\visiblegameobject.h
+	<iostream>
+	<string>
+	"SFML/Graphics.hpp"
+	"GameObjectManager.h"
+
+1462410760 source:c:\users\mihai\desktop\banana\src\gameobjectmanager.cpp
+	"GameObjectManager.h"
+
+1462410922 c:\users\mihai\desktop\banana\include\gameobjectmanager.h
+	<map>
+	<iostream>
+	<string>
+	"SFML/Graphics.hpp"
+	"VisibleGameObject.h"
+
+1462411042 c:\users\mihai\desktop\banana\include\gameball.h
+	<iostream>
+	<string>
+	"VisibleGameObject.h"
+	"SFML/Graphics.hpp"
+	"Game.h"
+	"GameObjectManager.h"
+	"PlayerPaddle.h"
+	<cmath>
+
+1462413717 source:c:\users\mihai\desktop\banana\src\gameball.cpp
+	"GameBall.h"
+	<time.h>
+	<cmath>
+	<iostream>
+
