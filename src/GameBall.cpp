@@ -2,6 +2,7 @@
 #include <time.h>
 #include <cmath>
 #include <iostream>
+#include "AIPaddle.h"
 GameBall::GameBall()
  :_velocity(240.0f),
   _elapsedTimeSinceStart(0.0f)
@@ -92,7 +93,7 @@ void GameBall::Update(float elapsedTime, GameObjectManager* gom) {
                 }
         }
 
-        PlayerPaddle* p2  = dynamic_cast<PlayerPaddle*> (gom->Get("Player2"));
+        AIPaddle* p2  = dynamic_cast<AIPaddle*> (gom->Get("Comp"));
         if (p2 != NULL)
         {
                 sf::Rect<float> p2bb= p2->GetBoundingRect();

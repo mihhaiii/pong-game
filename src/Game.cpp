@@ -1,5 +1,4 @@
 #include "Game.h"
-
 Game::Game()
 {
     //ctor
@@ -25,11 +24,16 @@ void Game::Start()
      PlayerPaddle* pl2 = new PlayerPaddle();
     pl2->SetPosition(SCREEN_WIDTH/2,50);
 
+    AIPaddle* comp = new  AIPaddle();
+    comp->SetPosition(SCREEN_WIDTH/2,50);
+
+
     GameBall* ball = new GameBall();
     ball->SetPosition(SCREEN_WIDTH/2,SCREEN_HEIGHT/2);
 
     _gameObjectManager.Add("Player1",pl1);
-    _gameObjectManager.Add("Player2",pl2);
+ //  _gameObjectManager.Add("Player2",pl2);
+    _gameObjectManager.Add("Comp",comp);
     _gameObjectManager.Add("Ball",ball);
 
     while (!IsExiting()) {

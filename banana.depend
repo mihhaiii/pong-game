@@ -6,15 +6,16 @@
 	"SFML/System.hpp"
 	"Game.h"
 
-1462302076 c:\users\mihai\desktop\banana\include\game.h
+1462488064 c:\users\mihai\desktop\banana\include\game.h
 	"SFML/Graphics.hpp"
 	"SplashScreen.h"
 	"MainMenu.h"
 	"GameObjectManager.h"
 	"PlayerPaddle.h"
 	"GameBall.h"
+	"AIPaddle.h"
 
-1462413581 source:c:\users\mihai\desktop\banana\src\game.cpp
+1462488268 source:c:\users\mihai\desktop\banana\src\game.cpp
 	"Game.h"
 
 1462216906 c:\users\mihai\desktop\banana\include\splashscreen.h
@@ -35,12 +36,12 @@
 	"MainMenu.h"
 	<list>
 
-1462412684 source:c:\users\mihai\desktop\banana\src\playerpaddle.cpp
+1462414239 source:c:\users\mihai\desktop\banana\src\playerpaddle.cpp
 	"PlayerPaddle.h"
 	<iostream>
 	"Game.h"
 
-1462414255 c:\users\mihai\desktop\banana\include\playerpaddle.h
+1462487982 c:\users\mihai\desktop\banana\include\playerpaddle.h
 	"VisibleGameObject.h"
 	"GameObjectManager.h"
 
@@ -78,4 +79,14 @@
 	<time.h>
 	<cmath>
 	<iostream>
+
+1462488253 c:\users\mihai\desktop\banana\include\aipaddle.h
+	"VisibleGameObject.h"
+	"GameObjectManager.h"
+
+1462488012 source:c:\users\mihai\desktop\banana\src\aipaddle.cpp
+	"AIPaddle.h"
+	<iostream>
+	"Game.h"
+	"GameBall.h"
 

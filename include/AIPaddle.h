@@ -1,15 +1,15 @@
-#ifndef PLAYERPADDLE_H
-#define PLAYERPADDLE_H
+#ifndef AIPADDLE_H
+#define AIPADDLE_H
 
 
 #include "VisibleGameObject.h"
 #include "GameObjectManager.h"
-class PlayerPaddle:
+class AIPaddle:
     public VisibleGameObject
 {
     public:
-        PlayerPaddle();
-        virtual ~PlayerPaddle();
+        AIPaddle();
+        virtual ~AIPaddle();
 
         void Update(float,GameObjectManager*);
         void Draw(sf::RenderWindow&);

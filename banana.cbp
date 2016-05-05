@@ -34,6 +34,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/AIPaddle.h" />
 		<Unit filename="include/Game.h" />
 		<Unit filename="include/GameBall.h" />
 		<Unit filename="include/GameObjectManager.h" />
@@ -42,6 +43,7 @@
 		<Unit filename="include/SplashScreen.h" />
 		<Unit filename="include/VisibleGameObject.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/AIPaddle.cpp" />
 		<Unit filename="src/Game.cpp" />
 		<Unit filename="src/GameBall.cpp" />
 		<Unit filename="src/GameObjectManager.cpp" />

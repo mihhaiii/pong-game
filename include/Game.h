@@ -7,6 +7,7 @@
 #include "GameObjectManager.h"
 #include "PlayerPaddle.h"
 #include "GameBall.h"
+#include "AIPaddle.h"
 class Game
 {
     public:
